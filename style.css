@@ -1,0 +1,44 @@
+body {
+  min-height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(212, 45%, 89%);
+  font-family: 'Outfit', sans-serif;
+}
+
+main {
+  max-width: clamp(100px, 100%, 300px);
+}
+
+.step {
+  width: inherit;
+  background-color: white;
+  padding: 1em 1em 2em 1em;
+  border-radius: 1em;
+  box-shadow: 0px 1px 20px hsl(208, 26%, 73%);
+}
+
+.step img {
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 0.5em;
+}
+
+.step .lower {
+  padding: 0 0.5em;
+  text-align: center;
+}
+
+.step .lower h1 {
+  font-size: 1.3rem;
+  color: rgb(20, 56, 124);
+}
+
+.step .lower p {
+  font-size: 1em;
+  color: hsl(0, 0%, 42%);
+}
